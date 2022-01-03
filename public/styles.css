@@ -23,17 +23,10 @@ nav a {
 }
 
 header {
-  background: #f4c4f3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fc67fa,
-    #f4c4f3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #fc67fa,
-    #f4c4f3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+
   padding: 48px;
   height: auto;
   width: 100%;
@@ -67,9 +60,9 @@ header {
   flex-direction: column;
   width: 100%;
   transition: all 1s ease;
-  background: #f4c4f3;
-  background: -webkit-linear-gradient(to right, #fc67fa, #f4c4f3);
-  background: linear-gradient(to right, #fc67fa, #f4c4f3);
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
 }
 
 .container {
@@ -133,24 +126,16 @@ img {
 }
 
 .textos a:hover {
-  /* border: 1px solid #000; */
-  color: #fc67fa;
+  color: #004e92;
   background-color: #fff;
   transition: 0.5s;
 }
 
 .wave {
-  background: #f4c4f3; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fc67fa,
-    #f4c4f3
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #fc67fa,
-    #f4c4f3
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  background: linear-gradient(to right, #004e92, #000428);
+
   height: 100px;
   width: 100%;
 }
@@ -200,52 +185,52 @@ img {
 }
 
 @media screen and (max-width: 1000px) {
-    img{
-        height: 300px;
-    }
-    .textos h1{
-        font-size: 50px;
-    }
-    .textos h2{
-        font-size: 20px;
-    }
+  img {
+    height: 300px;
+  }
+  .textos h1 {
+    font-size: 50px;
+  }
+  .textos h2 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    img{
-        height: 250px;
-    }
-    .textos h1{
-        font-size: 40px;
-    }
-    .textos h2{
-        font-size: 20px;
-    }
+  img {
+    height: 250px;
+  }
+  .textos h1 {
+    font-size: 40px;
+  }
+  .textos h2 {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    img{
-        height: 200px;
-    }
-    .textos h1{
-        font-size: 30px;
-    }
-    .textos h2{
-        font-size: 15px;
-    }
+  img {
+    height: 200px;
+  }
+  .textos h1 {
+    font-size: 30px;
+  }
+  .textos h2 {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .container{
-        width: 100%;
-        flex-wrap: wrap-reverse;
-        justify-content: center;
-    }
-    .textos{
-        width: 100%;
-        text-align: center;
-    }
-    .img a{
-        display: none;
-    }
+  .container {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .textos {
+    width: 100%;
+    text-align: center;
+  }
+  .img a {
+    display: none;
+  }
 }
