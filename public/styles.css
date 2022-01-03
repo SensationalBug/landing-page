@@ -90,7 +90,7 @@ img {
 }
 
 .img a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
   font-size: 10px;
 }
@@ -135,7 +135,6 @@ img {
   background: #000428;
   background: -webkit-linear-gradient(to right, #004e92, #000428);
   background: linear-gradient(to right, #004e92, #000428);
-
   height: 100px;
   width: 100%;
 }
