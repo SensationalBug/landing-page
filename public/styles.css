@@ -33,7 +33,7 @@ header {
 }
 
 .icono {
-  animation: moverAba 1s ease-in;
+  animation: moverDer 1s ease-in;
   justify-content: center;
   z-index: 1;
 }
